@@ -14,6 +14,16 @@ While the pandemic had put a pause on the traditional approaches for brick-and-m
   * Better Logistics – Improvement in supply chain management will mean that products would stock up.
   * Improved Customer Relationship – With demand forecasting, you can predict the specific requirements of customers and roll-out products at right time and quantity in the market. This positions you as a reliable brand and can improve customer satisfaction.
 
+#### About the data set:
+This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail. This has following columns InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID and Country.
+
+#### Goals:
+Inventory prediction:
+  An inventory system can also provide you with unparalleled insights into customer behavior, product performance, and channel performance, made possible even for large retailers with huge datasets.
+
+### Data Source:
+https://www.kaggle.com/carrie1/ecommerce-data
+
 ## Future Scope
 
 <p align="center">
