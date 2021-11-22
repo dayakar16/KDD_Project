@@ -1,5 +1,15 @@
 # KDD_Project
 
+## Group 9 Members
+Dayakar Ravuri
+Manideep Sadineni 
+Priyanka Satish 
+Rama Sri Saladi 
+Snehal Roy 
+Subramani S Sathiyamoorthi 
+Bhargava Ram Bonala
+
+
 <p align="center">
   <img src="https://www.pixelpool.com/wp-content/uploads/2018/12/retail-solutions-770x516.png" />
 </p>
