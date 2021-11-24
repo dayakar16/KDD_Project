@@ -31,8 +31,24 @@ This is a transnational data set which contains all the transactions occurring b
 Inventory prediction:
   An inventory system can also provide you with unparalleled insights into customer behavior, product performance, and channel performance, made possible even for large retailers with huge datasets.
 
-### Data Source:
+## Data Resource:
+
+Data set is taken from the kaggle website given below: 
 https://www.kaggle.com/carrie1/ecommerce-data
+
+
+## Date Preprocessing : 
+
+We have performed the data preprocessing using data cleaning where we will be detecting and correcting or removing corrupt or inaccurate records from a data set. We first read the data set into data frame and check using head whether it is correctly parsed or not and then we checked for null values in columns and rows removed the null values if any are present and created the new data frame. 
+
+## Data Understanding and Exploration: 
+
+In this project we are going to predict the retail sales using various algorithms. For this we explored the data set finding the number of orders of the customer from each country, Customer with the highest number of orders,total amount spent in each country, Most common product descriptions, most common stock codes used in the dataset. We will be taking the amount spent for the future use ie., creating the train and test sets and also for prediction.
+
+## Data Preparation for Modeling: 
+
+We have created the train and test data using the amount spent column where we took 80 percent for the train data and 20 percent for the test data. 
+
 
 ## Future Scope
 
