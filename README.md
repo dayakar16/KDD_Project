@@ -1,4 +1,4 @@
-# KDD_Project
+# E-commerce Sales Prediction
 
 <p align="center">
   <img src="https://www.pixelpool.com/wp-content/uploads/2018/12/retail-solutions-770x516.png" />
@@ -39,7 +39,7 @@ https://www.kaggle.com/carrie1/ecommerce-data
 
 ## Date Preprocessing : 
 
-We have performed the data preprocessing using data cleaning where we will be detecting and correcting or removing corrupt or inaccurate records from a data set. We first read the data set into data frame and check using head whether it is correctly parsed or not and then we checked for null values in columns and rows removed the null values if any are present and created the new data frame. 
+We have performed the data preprocessing using data cleaning where we will be detecting and correcting or removing corrupt or inaccurate records from a data set. We first read the data set into data frame and check using head whether it is correctly parsed or not and then we checked for null values in columns and rows removed the null values if any are present and created the new data frame. We also removed the negative values from the quantity and price columns.
 
 ## Data Understanding and Exploration: 
 
@@ -48,6 +48,10 @@ In this project we are going to predict the retail sales using various algorithm
 ## Data Preparation for Modeling: 
 
 We have created the train and test data using the amount spent column where we took 80 percent for the train data and 20 percent for the test data. 
+
+## Modeling, Evaluation and Results
+
+We took LinearRegression, Decision Tree Regressor and Random Forest Regressor models for predicting the sales. We predicted the sales using those three algorithms and calculated the mean absolute error and cross validation for each of them to evaluate their prediction. Based on the results obtained Random Forest Regressor is the best model to predict the sales.
 
 
 ## Future Scope
@@ -63,3 +67,7 @@ These are the following ways that this can be improved
 * Automation and Prediction for Faster, More Accurate Management.
 * Complete, Real Time Customer behaviour collection.
 * Expanding these insights to other parts of retail industry.
+
+## Conclusion
+
+We were able to get the awareness of sales in the market from the data, different country sales, customer wise sales and amount of money spent by each country. This data helps us to predict the number of sales in the upcoming years. Data cleaning was performed to remove the null values from the rows and columns. In addition we removed the negative values from Quantity and price columns. We have created amount_spent column based on the items price and quantity. We evaluated the Linear Regression, Decision Tree and Random Forest Models based on Mean Obsolute Error and Cross Validation. To properly forecast, it’s imperative that each of their sales managers and sales professionals refers to the same sales stages, uses the same terminology, and ultimately adjusts deals in the machine the same exact way. But we are encountered with some of the InvoiceId, description and stock code inconsistencies of the terminology usage. Which made the whole process of cleaning it. We used google colab before running the notebook. User should upload the dataset to the google colab if any error is observed.
